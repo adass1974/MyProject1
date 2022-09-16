@@ -4,7 +4,7 @@
 <div class="container">
 
 <c:if test="${successMsg!=null">
-    <h2><c:out value="${success|Msg}"></c:out></h2>
+    <h2><c:out value="${successMsg}"></c:out></h2>
 
 </c:if>
 

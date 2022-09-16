@@ -1,8 +1,8 @@
 
 <%@ taglib prefix = "c" url = "http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib url="http://www.springframework.org/yagss/form" prefix="form" %>
+<%@ taglib url="http://www.springframework.org/tags/form" prefix="form" %>
 
-<!DOCTYPE html>
+<!DOC TYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a classs="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>

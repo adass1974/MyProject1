@@ -1,6 +1,7 @@
 package com.example.MyProject1.Employee.EmployeeService;
 
 
+//import com.example.MyProject1.Employee.EmployeeController.EmployeeRepository;
 import com.example.MyProject1.Employee.model.Employee;
 import com.example.MyProject1.Employee.dao.IEmployeeDAO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,4 +45,11 @@ public class EmployeeServiceImpl implements IEmployeeService{
     public List<Employee> getEmployeeByDept(String deptName) {
         return daoRef.findByDeptName(deptName);
     }
+
+    //@Autowired
+    //EmployeeRepository employeeRepository;
+    //public void saveOrUpdate(Employee employee) {
+       // EmployeeRepository.save(employee);
+
+    //}
 }

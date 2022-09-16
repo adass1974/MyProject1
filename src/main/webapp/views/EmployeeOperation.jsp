@@ -18,7 +18,7 @@
  </br>
 
  <form method="post" action="updateEmployee">
- <input type="hidden" name="empId" value="${employeeData.empId}"/
+ <input type="hidden" name="empId" value="${employeeData.empId}"/>
  <input type="submit" value="Update Employee" class="btn btn-primary"/>
  </form>
 

@@ -1,16 +1,14 @@
 package com.example.MyProject1.Employee.EmployeeController;
 
 
+import com.example.MyProject1.Employee.EmployeeService.EmployeeServiceImpl;
 import com.example.MyProject1.Employee.model.Employee;
 import com.example.MyProject1.Employee.EmployeeService.IEmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -94,5 +92,14 @@ public class EmployeeController {
         model.addAttribute("successMsg","Employee Deleted Successfully");
 
         return "Homepage";
+
+
+       // creating a POST mapping that saves all the Boss detail from the database
+        //@PostMapping("/employee")
+        //private int saveEmployee(@RequestBody Employee Object employee;
+        //employee){
+        //    EmployeeServiceImpl.saveOrUpdate(saveEmployee);
+        //   return employee.getid();
+        //}
     }
 }
